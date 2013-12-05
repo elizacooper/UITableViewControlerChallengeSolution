@@ -1,5 +1,5 @@
 //
-//  ELCViewController.h
+//  ELCAppDelegate.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Eliza Cooper on 10/28/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ELCViewController : UIViewController
+@interface ELCAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
